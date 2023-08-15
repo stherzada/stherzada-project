@@ -1,0 +1,18 @@
+.nav-bar {
+  display: flex;
+  justify-content: space-around;
+  background: linear-gradient(
+    90deg,
+    rgba(57, 57, 213, 1) 0%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  color: azure;
+}
+.text-reference {
+  text-decoration: none;
+  color: azure;
+}
+
+.container {
+  margin-top: 1.5rem;
+}
