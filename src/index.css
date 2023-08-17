@@ -9,3 +9,10 @@ body,
   padding: 0px;
   font-family: "Lexend Deca", sans-serif;
 }
+
+.container-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 4rem;
+}

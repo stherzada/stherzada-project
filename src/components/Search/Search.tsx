@@ -4,10 +4,15 @@ import "./Search.css";
 export default function Search(): JSX.Element {
   return (
     <>
-      <IconSearch />
       <div className="search-container">
-        <img src="#" />
-        <input type="search" placeholder="Pesquisar no blog..."></input>
+        <div className="search-style">
+          <IconSearch />
+          <input
+            type="search"
+            placeholder="Pesquisar no blog..."
+            className="input-style"
+          ></input>
+        </div>
       </div>
     </>
   );
