@@ -2,11 +2,6 @@
   flex-wrap: nowrap;
   display: flex;
   justify-content: center;
-  background: linear-gradient(
-    90deg,
-    rgba(57, 57, 213, 1) 0%,
-    rgba(0, 212, 255, 1) 100%
-  );
 }
 .input-style {
   appearance: none;
@@ -28,4 +23,12 @@ input::placeholder {
 }
 input:focus {
   outline: none;
+}
+@media screen and (max-width: 767px) {
+  .input-style {
+    width: 10rem;
+  }
+  .search-style {
+    width: 20rem;
+  }
 }

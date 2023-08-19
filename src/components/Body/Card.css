@@ -2,12 +2,30 @@
   display: flex;
   flex-direction: column;
   margin: auto;
-  width: 70vw;
+  /* width: 70vw; */
+  border-color: black;
+  border-style: inset;
+  padding: 2rem;
+  transition: all 0.5s;
+  background-color: white;
+}
+
+.card:hover {
+  box-shadow: 20px -16px rgba(0, 212, 255, 1);
+}
+
+.card:hover svg {
+  cursor: pointer;
+  transition: all 0.5s;
+  filter: drop-shadow(4px 2px 2px rgb(101, 139, 234));
 }
 .date-icon-card {
   width: 100%;
   display: flex;
   justify-content: space-between;
 }
-.title-label-card {
+.card-buttons {
+  display: flex;
+
+  justify-content: flex-end;
 }

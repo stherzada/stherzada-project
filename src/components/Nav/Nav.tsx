@@ -4,15 +4,17 @@ import "./Nav.css";
 export default function Nav(): JSX.Element {
   return (
     <>
-      <nav className="nav-bar">
+      <nav className="container">
         <h2>Codelândia</h2>
-        <div className="container">
-          <a href="#" className="text-reference">
-            Blog
-          </a>
+        <div>
+          <div>
+            <a href="#" className="text-reference">
+              Blog
+            </a>
+          </div>
+          <Search />
         </div>
       </nav>
-      <Search />
     </>
   );
 }

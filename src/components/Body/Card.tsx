@@ -1,5 +1,6 @@
 import { Heart as IconHeart } from "./IconHeart";
 import "./Card.css";
+
 type CardProps = { title: string; label: string };
 
 export default function Card({ title, label }: CardProps) {
@@ -13,6 +14,10 @@ export default function Card({ title, label }: CardProps) {
         <div className="title-label-card">
           <h2>{title}</h2>
           <p>{label}</p>
+        </div>
+        <div className="card-buttons">
+          <button>Delete</button>
+          <button>Edit</button>
         </div>
       </div>
     </>

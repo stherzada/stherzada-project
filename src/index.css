@@ -8,6 +8,7 @@ body,
   margin: 0px;
   padding: 0px;
   font-family: "Lexend Deca", sans-serif;
+  background-color: #f3f5f7;
 }
 
 .container-cards {
@@ -15,4 +16,10 @@ body,
   flex-direction: column;
   gap: 2rem;
   padding: 4rem;
+}
+
+@media screen and (max-width: 767px) {
+  .container-cards {
+    padding: 1rem;
+  }
 }
