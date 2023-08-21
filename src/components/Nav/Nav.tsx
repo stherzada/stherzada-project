@@ -5,9 +5,10 @@ export default function Nav(): JSX.Element {
   return (
     <>
       <nav className="container">
-        <h2>Codelândia</h2>
         <div>
-          <div>
+          <div className="header-titles">
+            {" "}
+            <h2>Codelândia</h2>
             <a href="#" className="text-reference">
               Blog
             </a>

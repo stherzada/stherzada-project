@@ -1,4 +1,6 @@
 import { Heart as IconHeart } from "./IconHeart";
+import { Trash as IconTrash } from "./IconTrash";
+import { Edit as IconEdit } from "./IconEdit";
 import "./Card.css";
 
 type CardProps = { title: string; label: string };
@@ -13,11 +15,15 @@ export default function Card({ title, label }: CardProps) {
         </div>
         <div className="title-label-card">
           <h2>{title}</h2>
-          <p>{label}</p>
+          <p className="txt-allign-justify">{label}</p>
         </div>
         <div className="card-buttons">
-          <button>Delete</button>
-          <button>Edit</button>
+          <button className="buttons">
+            <IconTrash />
+          </button>
+          <button className="buttons">
+            <IconEdit />
+          </button>
         </div>
       </div>
     </>

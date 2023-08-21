@@ -18,3 +18,15 @@
   max-width: 900px;
   margin-top: 1.5rem;
 }
+
+.header-titles {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media screen and (max-width: 915px) {
+  .header-titles {
+    justify-content: space-around;
+  }
+}
