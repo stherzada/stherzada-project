@@ -4,7 +4,7 @@
 
 - Essa ideia foi inspirada no projeto do [codelândia](https://codelandia-desafio01-blog.vercel.app) onde é voltado pra reforçar os estudos em react, e adicionei uma simulação de como seria obter informações de uma banco de dados que foi _simulado_ no próprio projeto na parte `server codelândia`
 
-![imagem do site, com um titulo chamado codelândia e algumas simulações de post](https://imgur.com/a/tSB858J)
+![imagem do site, com um titulo chamado codelândia e algumas simulações de post]([https://imgur.com/a/tSB858J](https://imgur.com/a/tSB858J))
 
 ---
 ### ⭐ Como utilizar este projeto?
@@ -42,5 +42,7 @@ Quando todas as expansões forem baixadas, dê este comando no terminal:
 - ☑️ Melhora de animações gerais;
 - ☑️ Responsividade;
 - ☑️ Adicionar novos post;
+
+  ---
 
 <div align="center">Feito por <a href="https://www.linkedin.com/in/sthefany-sther/">Sther</a> 🤍</div>
