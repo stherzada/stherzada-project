@@ -1,27 +1,46 @@
-# React + TypeScript + Vite
+# Stherzada - Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### 📍 Por quê do Projeto?
 
-Currently, two official plugins are available:
+- Essa ideia foi inspirada no projeto do [codelândia](https://codelandia-desafio01-blog.vercel.app) onde é voltado pra reforçar os estudos em react, e adicionei uma simulação de como seria obter informações de uma banco de dados que foi _simulado_ no próprio projeto na parte `server codelândia`
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![imagem do site, com um titulo chamado codelândia e algumas simulações de post](https://imgur.com/a/tSB858J)
 
-## Expanding the ESLint configuration
+---
+### ⭐ Como utilizar este projeto?
+-  Para fazer este projeto rodar em sua máquina, recomendo **clonar** este projeto e instalar qualquer versão acima da **12** do [node](https://nodejs.org/en/download) em sua máquina.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Logo após, abra seu terminal dentro da sua IDE e digite:
 
-- Configure the top-level `parserOptions` property like this:
+``npm i ``
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+Quando todas as expansões forem baixadas, dê este comando no terminal:
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+``npm run dev``
+
+ - Clique no link que será gerado com **_ctrl + botão esquerdo do mouse_**, exemplo de link que pode ser gerado: http://localhost:0001/
+
+ - Para utilizar o server simulado é necessário usar:
+
+ ``npm json-server server-codelandia/db.json``
+ 
+ - Utilize em outra guia do terminal para que possa, ver a simulação em tempo em real.
+
+ ---
+
+### 🛠 Tecnologias Utilizadas
+
+- [React](https://react.dev)
+- [Vite](https://vitejs.dev)
+- [TypeScript](https://www.typescriptlang.org/docs/)
+- [StyledIcons](https://styled-icons.dev)
+
+---
+
+### 📄 O que falta?
+- ☑️ Rotas de post, update e delete;
+- ☑️ Melhora de animações gerais;
+- ☑️ Responsividade;
+- ☑️ Adicionar novos post;
+
+<div align="center">Feito por <a href="https://www.linkedin.com/in/sthefany-sther/">Sther</a> 🤍</div>
