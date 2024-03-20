@@ -7,7 +7,7 @@
 ![imagem do site, com um titulo chamado codelândia e algumas simulações de post](https://i.imgur.com/iYwd5dE.png)
 
 ---
-### ⭐ Como utilizar este projeto?
+### ⭐ Como utilizar este projeto localmente?
 -  Para fazer este projeto rodar em sua máquina, recomendo **clonar** este projeto e instalar qualquer versão acima da **12** do [node](https://nodejs.org/en/download) em sua máquina.
 
 Logo após, abra seu terminal dentro da sua IDE e digite:
