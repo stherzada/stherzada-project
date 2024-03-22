@@ -10,19 +10,31 @@
 ### ⭐ Como utilizar este projeto localmente?
 -  Para fazer este projeto rodar em sua máquina, recomendo **clonar** este projeto e instalar qualquer versão acima da **12** do [node](https://nodejs.org/en/download) em sua máquina.
 
-Logo após, abra seu terminal dentro da sua IDE e digite:
+```shell
+git clone https://github.com/stherzada/stherzada-project.git
+```
 
-``npm i ``
+- Logo após, abra seu terminal dentro da sua IDE e digite:
 
-Quando todas as expansões forem baixadas, dê este comando no terminal:
+```shell
+npm i 
+```
 
-``npm run dev``
+- Quando todas as expansões forem baixadas, dê este comando no terminal:
+
+```shell 
+npm run dev
+```
 
  - Clique no link que será gerado com **_ctrl + botão esquerdo do mouse_**, exemplo de link que pode ser gerado: http://localhost:0001/
 
- - Para utilizar o server simulado é necessário usar:
+   
 
- ``npm json-server server-codelandia/db.json``
+### Para utilizar o server simulado é necessário usar:
+
+ ```shell
+npm json-server server-codelandia/db.json
+```
  
  - Utilize em outra guia do terminal para que possa, ver a simulação em tempo em real.
 
